@@ -1,0 +1,21 @@
+.projects {
+  max-width: 1000px;
+  margin: 1.2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  padding: 1rem;
+}
+
+.projectItem {
+  display: flex;
+  border: 2px solid rgb(235, 81, 81);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.projectItem img {
+  max-width: 200px;
+  border-radius: 5px;
+  border: 2px solid rgb(235, 81, 81);
+}

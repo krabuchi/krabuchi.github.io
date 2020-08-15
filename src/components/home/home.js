@@ -40,6 +40,8 @@ export default function Home() {
           <br /> I am a Frontend WebDev.
         </h2>
       </div>
+
+      <h1 className={styles.titleTechStack}>Tech Stack</h1>
       <div className={styles.techStack}>
         {tech.map((el, i) => (
           <div key={i} className={styles.techItem}>

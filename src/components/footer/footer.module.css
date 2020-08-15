@@ -1,0 +1,12 @@
+.footer {
+  position: relative;
+  left: 0;
+  bottom: -10;
+  right: 0;
+  width: 100%;
+  background-color: rgb(235, 81, 81);
+  color: #fff;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 1rem;
+}

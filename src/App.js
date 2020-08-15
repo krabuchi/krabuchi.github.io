@@ -5,7 +5,8 @@ import "./App.css";
 import Header from "./components/header/header";
 import Home from "./components/home/home";
 import About from "./components/about";
-import Projects from "./components/projects";
+import Projects from "./components/projects/projects";
+import Footer from "./components/footer/footer";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
