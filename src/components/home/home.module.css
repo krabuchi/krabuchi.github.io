@@ -35,18 +35,30 @@
 
 .techStack {
   margin: 2rem auto;
-  width: 900px;
+  max-width: 900px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1rem;
 }
 
 .techItem {
-  max-height: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(235, 81, 81);
+  border-radius: 5px;
 }
 
-.techItem img {
-  max-width: 200px;
-  height: auto;
+.titleName {
+  font-family: Nunito;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(235, 81, 81);
+}
+
+.techItem i {
+  font-size: 5rem;
+  padding: 1.2rem;
+  color: rgb(235, 81, 81);
 }

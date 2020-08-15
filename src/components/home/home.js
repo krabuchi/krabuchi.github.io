@@ -1,18 +1,33 @@
 import React from "react";
 import styles from "./home.module.css";
 
-import ReactSvg from "../../images/react.svg";
-import NodeSvg from "../../images/nodejs.svg";
-import MongoSvg from "../../images/mongodb.svg";
-import GitSvg from "../../images/git.svg";
-import Express from "../../images/expressjs.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faNodeJs,
+  faGitAlt,
+  faJsSquare,
+  faHtml5,
+  faCss3Alt,
+} from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+
+let html5Icon = <FontAwesomeIcon icon={faHtml5} />;
+let cssIcon = <FontAwesomeIcon icon={faCss3Alt} />;
+let reactIcon = <FontAwesomeIcon icon={faReact} />;
+let nodejsIcon = <FontAwesomeIcon icon={faNodeJs} />;
+let gitIcon = <FontAwesomeIcon icon={faGitAlt} />;
+let jsIcon = <FontAwesomeIcon icon={faJsSquare} />;
+let mongodbIcon = <FontAwesomeIcon icon={faDatabase} />;
 
 const tech = [
-  { image: ReactSvg, title: "ReactJS" },
-  { image: NodeSvg, title: "NodeJS" },
-  { image: MongoSvg, title: "MongoDB" },
-  { image: Express, title: "Express" },
-  { image: GitSvg, title: "Git" },
+  { image: html5Icon, title: "HTML5" },
+  { image: cssIcon, title: "CSS3" },
+  { image: jsIcon, title: "Javascript" },
+  { image: reactIcon, title: "ReactJS" },
+  { image: nodejsIcon, title: "NodeJS" },
+  { image: gitIcon, title: "Git" },
+  { image: mongodbIcon, title: "MongoDB" },
 ];
 
 export default function Home() {
@@ -26,10 +41,10 @@ export default function Home() {
         </h2>
       </div>
       <div className={styles.techStack}>
-        {tech.map((el) => (
-          <div className={styles.techItem}>
-            <img src={el.image} width="200" heigth="100" alt={el.title} />
-            <h3>{el.title}</h3>
+        {tech.map((el, i) => (
+          <div key={i} className={styles.techItem}>
+            <i>{el.image}</i>
+            <span className={styles.titleName}>{el.title}</span>
           </div>
         ))}
       </div>
