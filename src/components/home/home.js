@@ -36,8 +36,8 @@ export default function Home() {
       <div className={styles.bgImage}></div>
       <div className={styles.bgText}>
         <h2>
-          Hi, I am Shashank.
-          <br /> I am a Frontend WebDev.
+          Hi, I'm <span className={styles.name}>{" <Shashank />"}</span>
+          <br /> I'm a Front End Developer
         </h2>
       </div>
 

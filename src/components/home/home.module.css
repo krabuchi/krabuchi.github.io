@@ -1,6 +1,6 @@
 .bgImage {
   width: 100%;
-  height: calc(100vh - 77px);
+  height: calc(100vh - 68px);
   /* The image used */
   background-image: url("../../images/coding-image.jpg");
 
@@ -33,6 +33,13 @@
   text-align: center;
   max-width: 900px;
   transition: 200ms all ease-in-out;
+}
+
+.name {
+  background-color: rgb(241, 88, 88);
+  color: #fff;
+  padding: 0.2rem;
+  font-family: Nunito;
 }
 
 .bgText:hover {
