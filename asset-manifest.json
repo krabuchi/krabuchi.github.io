@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ae4db21c.chunk.css",
-    "main.js": "/portfolio/static/js/main.95c05980.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.95c05980.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.24ede305.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.24ede305.js.map",
-    "static/js/2.4927998c.chunk.js": "/portfolio/static/js/2.4927998c.chunk.js",
-    "static/js/2.4927998c.chunk.js.map": "/portfolio/static/js/2.4927998c.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.870af7986474164532994cb8ad217f36.js": "/portfolio/precache-manifest.870af7986474164532994cb8ad217f36.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.ae4db21c.chunk.css.map": "/portfolio/static/css/main.ae4db21c.chunk.css.map",
-    "static/js/2.4927998c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4927998c.chunk.js.LICENSE.txt",
-    "static/media/home.module.css": "/portfolio/static/media/coding-image.84effdd7.jpg"
+    "main.css": "/krabuchi.github.io/static/css/main.fef0a607.chunk.css",
+    "main.js": "/krabuchi.github.io/static/js/main.cf2a2798.chunk.js",
+    "main.js.map": "/krabuchi.github.io/static/js/main.cf2a2798.chunk.js.map",
+    "runtime-main.js": "/krabuchi.github.io/static/js/runtime-main.ec77f19b.js",
+    "runtime-main.js.map": "/krabuchi.github.io/static/js/runtime-main.ec77f19b.js.map",
+    "static/js/2.4927998c.chunk.js": "/krabuchi.github.io/static/js/2.4927998c.chunk.js",
+    "static/js/2.4927998c.chunk.js.map": "/krabuchi.github.io/static/js/2.4927998c.chunk.js.map",
+    "index.html": "/krabuchi.github.io/index.html",
+    "precache-manifest.86b956334bc3ad10ac8201fbe8927f59.js": "/krabuchi.github.io/precache-manifest.86b956334bc3ad10ac8201fbe8927f59.js",
+    "service-worker.js": "/krabuchi.github.io/service-worker.js",
+    "static/css/main.fef0a607.chunk.css.map": "/krabuchi.github.io/static/css/main.fef0a607.chunk.css.map",
+    "static/js/2.4927998c.chunk.js.LICENSE.txt": "/krabuchi.github.io/static/js/2.4927998c.chunk.js.LICENSE.txt",
+    "static/media/home.module.css": "/krabuchi.github.io/static/media/coding-image.84effdd7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.24ede305.js",
+    "static/js/runtime-main.ec77f19b.js",
     "static/js/2.4927998c.chunk.js",
-    "static/css/main.ae4db21c.chunk.css",
-    "static/js/main.95c05980.chunk.js"
+    "static/css/main.fef0a607.chunk.css",
+    "static/js/main.cf2a2798.chunk.js"
   ]
 }
