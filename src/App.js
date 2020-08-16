@@ -4,7 +4,7 @@ import "./App.css";
 
 import Header from "./components/header/header";
 import Home from "./components/home/home";
-import About from "./components/about";
+import Contact from "./components/contact/contact";
 import Projects from "./components/projects/projects";
 import Footer from "./components/footer/footer";
 
@@ -14,8 +14,8 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="/projects">
             <Projects />
