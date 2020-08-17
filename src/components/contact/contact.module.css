@@ -1,6 +1,6 @@
 .contact {
-  height: calc(100vh - 170px);
-  width: calc(100vw - 20px);
+  height: calc(100vh - 160px);
+  max-width: calc(100vw - 20px);
 }
 
 .contact h2 {

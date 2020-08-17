@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <h1> footer </h1>
+      <div>© Copyright 2020. Shashank U.</div>
     </footer>
   );
 }
