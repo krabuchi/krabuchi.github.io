@@ -9,6 +9,7 @@ import {
   faJsSquare,
   faHtml5,
   faCss3Alt,
+  faSass,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
@@ -19,12 +20,14 @@ let nodejsIcon = <FontAwesomeIcon icon={faNodeJs} />;
 let gitIcon = <FontAwesomeIcon icon={faGitAlt} />;
 let jsIcon = <FontAwesomeIcon icon={faJsSquare} />;
 let mongodbIcon = <FontAwesomeIcon icon={faDatabase} />;
+let sassIcon = <FontAwesomeIcon icon={faSass} />;
 
 const tech = [
   { image: html5Icon, title: "HTML5" },
   { image: cssIcon, title: "CSS3" },
   { image: jsIcon, title: "Javascript" },
   { image: reactIcon, title: "ReactJS" },
+  { image: sassIcon, title: "Sass" },
   { image: nodejsIcon, title: "NodeJS" },
   { image: gitIcon, title: "Git" },
   { image: mongodbIcon, title: "MongoDB" },

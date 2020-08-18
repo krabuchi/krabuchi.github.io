@@ -28,7 +28,7 @@ export default function Contact() {
       </p>
       <div className={styles.iconsContainer}>
         <a
-          href={"https://www.github.com/krabuchi"}
+          href={"https://www.linkedin.com/in/shashank-uchil-23188947/"}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -42,7 +42,7 @@ export default function Contact() {
           <i>{github}</i>
         </a>
         <a
-          href={"https://www.github.com/krabuchi"}
+          href={"https://codepen.io/krabuchi"}
           target="_blank"
           rel="noopener noreferrer"
         >
