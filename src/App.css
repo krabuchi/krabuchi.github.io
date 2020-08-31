@@ -1,13 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&family=Roboto+Mono&display=swap");
 
+:root {
+  --main-font: "Nunito", sans-serif;
+  --title-font: "Roboto Mono", monospace;
+  --ease: cubic-bezier(0.23, 1, 0.32, 1);
+  --main-red: rgb(250, 75, 75);
+  --main-gray: rgb(63, 63, 63);
+  --white: seashell;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f6f6f6;
+  min-height: 1500px;
+  font-family: var(--main-font);
+  transition: 250ms all ease-in;
 }
 
-.app {
-  margin: 0;
-  width: 100%;
+#root {
+  background-image: linear-gradient(to bottom, var(--main-red), var(--white));
 }

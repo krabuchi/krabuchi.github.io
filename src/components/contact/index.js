@@ -19,13 +19,13 @@ export default function Contact() {
   });
   return (
     <div className={styles.contact}>
-      <h2>Contact</h2>
-      <p>
+      <h1>Contact</h1>
+      <span>
         Say Hello! Best way to reach me.
         <span role="img" aria-label="wavehand">
           👋
         </span>{" "}
-      </p>
+      </span>
       <div className={styles.iconsContainer}>
         <a
           href={"https://www.linkedin.com/in/shashank-uchil-23188947/"}
@@ -50,12 +50,12 @@ export default function Contact() {
         </a>
       </div>
       <div className={styles.emailbar}>
-        <p>
+        <span>
           For all business inquiries, please email me
           <span role="img" aria-label="handshake">
             🤝
           </span>{" "}
-        </p>
+        </span>
         <a
           href="mailto:uchilshashank@gmail.com"
           target="_blank"

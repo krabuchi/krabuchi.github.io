@@ -1,126 +1,74 @@
-.bgImage {
+.hero {
   width: 100%;
-  height: calc(100vh - 60px);
-  /* The image used */
-  background-image: url("../../images/coding-image.jpg");
-  /* Add the blur effect */
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.bgText {
-  width: 100%;
-  max-width: 1000px;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  color: white;
-  font-family: "Roboto Mono", monospace;
-  font-weight: bold;
-  font-size: 2rem;
-  border: 3px solid #f1f1f1;
-  border-radius: 5px;
+.hero:before {
+  content: "";
   position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  padding: 1rem;
-  text-align: center;
-  transition: 200ms all ease-in-out;
-  animation: mymove 2s;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 10000;
 }
 
-@media only screen and (max-width: 900px) {
-  .bgText {
-    width: 70%;
-    font-size: 1.5rem;
-  }
+.hero:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  mix-blend-mode: color;
 }
 
-@media only screen and (max-width: 650px) {
-  .bgText {
-    width: 70%;
-    font-size: 1.3rem;
-  }
+.heroImage {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
 }
 
-@media only screen and (max-width: 380px) {
-  .bgText {
-    width: 60%;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-  }
+.heroImage img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
 }
 
-@keyframes mymove {
-  from {
+.hero h2 {
+  position: absolute;
+  margin: 0;
+  font-size: 3em;
+  font-family: var(--main-font);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.4);
+}
+
+@keyframes myMove {
+  0% {
     transform: translateY(100%);
     transform: translate(-50%, 50%);
   }
-  to {
+  100% {
     transform: translateY(0);
     transform: translate(-50%, -50%);
   }
 }
 
-.name {
-  background-color: rgb(241, 88, 88);
-  color: #fff;
-  padding: 0.2rem;
-  font-family: Nunito;
-}
-
-.bgText:hover {
-  box-shadow: 2px 5px 5px 4px rgba(22, 22, 22, 0.692);
-}
-
-.titleTechStack {
-  font-family: Nunito;
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 2rem;
-  color: rgba(189, 50, 50, 0.8);
-}
-
-.techStack {
-  margin: 1.2rem auto;
-  max-width: 900px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  grid-gap: 1rem;
-  padding: 1rem;
-}
-
-.techItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgb(235, 81, 81);
-  border-radius: 5px;
-  box-shadow: 0px 3px 3px 2px rgba(235, 81, 81, 0.3);
-  transition: 200ms all ease-in-out;
-}
-
-.techItem:hover {
-  box-shadow: 1px 3px 4px 2px rgba(235, 81, 81, 0.3);
-  transform: scale(1.07);
-}
-
-.titleName {
-  font-family: Nunito;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: rgb(235, 81, 81);
-}
-
-.techItem i {
-  font-size: 5rem;
-  padding: 1.2rem;
-  color: rgb(235, 81, 81);
+.hero .name {
+  color: var(--main-red);
+  text-shadow: 1px 1px 3px var(--main-red);
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./home.module.css";
+
+import styles from "./styles.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -33,29 +34,18 @@ const tech = [
   { image: mongodbIcon, title: "MongoDB" },
 ];
 
-export default function Home() {
-  React.useEffect(() => {
-    document.title = "Shashank. U.";
-  });
+export default function TechStack() {
   return (
-    <main>
-      <div className={styles.bgImage}></div>
-      <div className={styles.bgText}>
-        <h2>
-          Hi, I'm <span className={styles.name}>{"<Shashank />"}</span>
-          <br /> I'm a Front End Developer
-        </h2>
-      </div>
-
+    <div className={styles.techStack}>
       <h1 className={styles.titleTechStack}>Tech Stack</h1>
-      <div className={styles.techStack}>
+      <ul className={styles.techStackList}>
         {tech.map((el, i) => (
-          <div key={i} className={styles.techItem}>
+          <li key={i} className={styles.techItem}>
             <i>{el.image}</i>
             <span className={styles.titleName}>{el.title}</span>
-          </div>
+          </li>
         ))}
-      </div>
-    </main>
+      </ul>
+    </div>
   );
 }

@@ -1,31 +1,20 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
-import Header from "./components/header/header";
-import Home from "./components/home/home";
-import Contact from "./components/contact/contact";
-import Projects from "./components/projects/projects";
-import Footer from "./components/footer/footer";
+import Home from "./components/home";
+import Footer from "./components/footer";
+import Projects from "./components/projects";
+import Contact from "./components/contact";
+import TechStack from "./components/teckStack";
 
 export default function App() {
   return (
     <div className="app">
-      <Router>
-        <Header />
-        <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>
+      <Home />
+      <TechStack />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
