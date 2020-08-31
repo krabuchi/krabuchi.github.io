@@ -8,7 +8,7 @@
 }
 
 .techStack h1 {
-  color: var(--white);
+  color: var(--main-gray);
 }
 
 .techStackList {
@@ -20,7 +20,7 @@
   grid-gap: 1em;
   margin: 1em auto;
   padding: 2em;
-  border-top: 1px solid var(--white);
+  border-top: 1px solid var(--main-gray);
 }
 
 .techItem {
@@ -31,6 +31,7 @@
   justify-content: center;
   background-color: var(--white);
   border-radius: 5px;
+  border: 0.1em solid var(--main-red);
 }
 
 .titleName {

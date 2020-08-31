@@ -11,7 +11,7 @@ export default function Home() {
 
   const handleScroll = () => {
     let value = window.scrollY;
-    let t = value * 0.8 + "px";
+    let t = value * 0.9 + "px";
     setTop(t);
   };
 
