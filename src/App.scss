@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,600;1,400&display=swap");
+
+$text-size: 2rem;
+$color-main: #7b2fba;
+$color-dark: #3a145a;
+$color-lighten: #d6b1f5;
+$color-complemet: #9ae75b;
+$color-bg-dark: #222222;
+$body-font: "Nunito", sans-serif;
+$title-font: "Roboto Mono", monospace;
+$body-font-weight: 500;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes run {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: $color-bg-dark;
+}

@@ -1,0 +1,48 @@
+@import "../../App.scss";
+
+.tech-stack {
+  width: 100%;
+  max-width: 1337px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  h2 {
+    color: $color-complemet;
+    font-size: 2.5rem;
+    margin: 1.2rem 0;
+    font-family: $title-font;
+  }
+
+  .stack-icon-title {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    article {
+      width: 9rem;
+      height: 9rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem;
+      align-items: center;
+      background-color: $color-lighten;
+      border-radius: 50%;
+      padding: 1rem;
+
+      i {
+        font-size: 4rem;
+        color: $color-dark;
+      }
+      span {
+        font-family: $body-font;
+      }
+    }
+  }
+}

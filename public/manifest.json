@@ -1,6 +1,6 @@
 {
-  "short_name": "Shashank U.",
-  "name": "I am a Front End Web Developer",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
