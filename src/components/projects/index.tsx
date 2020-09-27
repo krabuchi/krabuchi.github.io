@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.scss";
 
 import {
-  hifiproduct,
-  math,
+  moodify,
+  freakingmath,
   movieportal,
   pokedex,
   weather,
@@ -19,7 +19,7 @@ const projects = [
   {
     name: "Moodify",
     ref: "https://hifiproduct.herokuapp.com/",
-    image: hifiproduct,
+    image: moodify,
   },
   {
     name: "Movie Portal",
@@ -39,11 +39,15 @@ const projects = [
   {
     name: "Freaking Math",
     ref: "https://codepen.io/krabuchi/full/vYLJPRJ",
-    image: math,
+    image: freakingmath,
   },
 ];
 
 export default function Projects() {
+  useEffect(() => {
+    document.title = `Projects`;
+  });
+
   return (
     <section className="projects">
       <h2>Projects</h2>

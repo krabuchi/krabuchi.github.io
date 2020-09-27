@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.scss";
 
+//import font-awesome icons and react component for fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {
   faReact,
   faNodeJs,
@@ -10,44 +10,40 @@ import {
   faJsSquare,
   faHtml5,
 } from "@fortawesome/free-brands-svg-icons";
-
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
-const database = <FontAwesomeIcon icon={faDatabase} />;
-const react = <FontAwesomeIcon icon={faReact} />;
-const javascript = <FontAwesomeIcon icon={faJsSquare} />;
-const html = <FontAwesomeIcon icon={faHtml5} />;
-const sass = <FontAwesomeIcon icon={faSass} />;
-const node = <FontAwesomeIcon icon={faNodeJs} />;
-
+//data to render iconst and name
 const tech = [
   {
     name: "HTML",
-    icon: html,
+    icon: <FontAwesomeIcon icon={faHtml5} />,
   },
   {
     name: "Sass/CSS",
-    icon: sass,
+    icon: <FontAwesomeIcon icon={faSass} />,
   },
   {
     name: "Javascript",
-    icon: javascript,
+    icon: <FontAwesomeIcon icon={faJsSquare} />,
   },
   {
     name: "React",
-    icon: react,
+    icon: <FontAwesomeIcon icon={faReact} />,
   },
   {
     name: "NodeJS",
-    icon: node,
+    icon: <FontAwesomeIcon icon={faNodeJs} />,
   },
   {
     name: "Mongo/MySql",
-    icon: database,
+    icon: <FontAwesomeIcon icon={faDatabase} />,
   },
 ];
 
 export default function TechStack() {
+  useEffect(() => {
+    document.title = `My tech stack`;
+  });
   return (
     <section className="tech-stack">
       <h2>Tech Stack</h2>
