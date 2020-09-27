@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.afd8401c.chunk.css",
-    "main.js": "/static/js/main.bce19341.chunk.js",
-    "main.js.map": "/static/js/main.bce19341.chunk.js.map",
+    "main.css": "/static/css/main.52983bfb.chunk.css",
+    "main.js": "/static/js/main.a492e336.chunk.js",
+    "main.js.map": "/static/js/main.a492e336.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.262fcfd3.js",
     "runtime-main.js.map": "/static/js/runtime-main.262fcfd3.js.map",
-    "static/js/2.1e89a19a.chunk.js": "/static/js/2.1e89a19a.chunk.js",
-    "static/js/2.1e89a19a.chunk.js.map": "/static/js/2.1e89a19a.chunk.js.map",
+    "static/js/2.75f5965a.chunk.js": "/static/js/2.75f5965a.chunk.js",
+    "static/js/2.75f5965a.chunk.js.map": "/static/js/2.75f5965a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c2613160590079493ec3825c3d68d84.js": "/precache-manifest.6c2613160590079493ec3825c3d68d84.js",
+    "precache-manifest.2491257f82f56ac6acbb4ca08ac955d8.js": "/precache-manifest.2491257f82f56ac6acbb4ca08ac955d8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.afd8401c.chunk.css.map": "/static/css/main.afd8401c.chunk.css.map",
-    "static/js/2.1e89a19a.chunk.js.LICENSE.txt": "/static/js/2.1e89a19a.chunk.js.LICENSE.txt",
-    "static/media/hifiproduct.jpg": "/static/media/hifiproduct.7293f386.jpg",
-    "static/media/math.jpg": "/static/media/math.ff70b413.jpg",
-    "static/media/movieportal.jpg": "/static/media/movieportal.471a281c.jpg",
-    "static/media/noteit.jpg": "/static/media/noteit.97cbbe4b.jpg",
-    "static/media/pokedex.jpg": "/static/media/pokedex.0d7aee9f.jpg",
-    "static/media/weather.jpg": "/static/media/weather.c02755d1.jpg"
+    "static/css/main.52983bfb.chunk.css.map": "/static/css/main.52983bfb.chunk.css.map",
+    "static/js/2.75f5965a.chunk.js.LICENSE.txt": "/static/js/2.75f5965a.chunk.js.LICENSE.txt",
+    "static/media/freakingmath.jpg": "/static/media/freakingmath.7064beb4.jpg",
+    "static/media/moodify.jpg": "/static/media/moodify.f3abf11f.jpg",
+    "static/media/movieportal.jpg": "/static/media/movieportal.fb9742e6.jpg",
+    "static/media/noteit.jpg": "/static/media/noteit.cab2ab0f.jpg",
+    "static/media/pokedex.jpg": "/static/media/pokedex.5a7d4fa9.jpg",
+    "static/media/weatherpwa.jpg": "/static/media/weatherpwa.04c434d6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.262fcfd3.js",
-    "static/js/2.1e89a19a.chunk.js",
-    "static/css/main.afd8401c.chunk.css",
-    "static/js/main.bce19341.chunk.js"
+    "static/js/2.75f5965a.chunk.js",
+    "static/css/main.52983bfb.chunk.css",
+    "static/js/main.a492e336.chunk.js"
   ]
 }
