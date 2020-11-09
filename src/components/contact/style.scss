@@ -1,39 +1,20 @@
 @import "../../App.scss";
 
-.contact-page {
-  margin-top: 2rem;
+.icons-social {
   width: 100%;
-  height: 100vh;
-  margin: 0 auto;
+  max-width: 250px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+}
 
-  h2 {
-    color: $color-complemet;
-    font-size: 2.5rem;
-    margin: 1.2rem 0;
-    font-family: $title-font;
-  }
+i {
+  font-size: 2rem;
+  color: #ffffff;
+  transition: 150ms all ease-in-out;
 
-  .icons-social {
-    width: 100%;
-    height: 100%;
-    max-width: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2rem;
-  }
-
-  i {
-    font-size: 2.5rem;
-    color: $color-lighten;
-    transition: 150ms all ease-in-out;
-
-    &:hover {
-      color: $color-complemet;
-      cursor: pointer;
-    }
+  &:hover {
+    color: #fffb26;
+    cursor: pointer;
   }
 }

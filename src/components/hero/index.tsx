@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 export default function Hero() {
@@ -7,16 +8,13 @@ export default function Hero() {
   });
 
   return (
-    <section className="banner">
-      <div className="lines">
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
-      </div>
+      
       <div className="text">
-        <h2>Hello, I'm Shashank.</h2>
-        <h3>I'm a Full Stack Web Developer.</h3>
+        <h2>Hi, I am Shashank & I am a <span className="dev-name">Web Developer</span>.</h2>
+        <p>When I am not working or gaming, I design and develop website.
+        I am based in Mumbai and work as a Data Analyst.</p>
+        <p>I am really passionate about side projects and helping improve craft and process.
+<br />Check out my work <Link to="/projects" className="hero-project-link">here</Link> and come talk with me on Twitter.</p>
       </div>
-    </section>
   );
 }

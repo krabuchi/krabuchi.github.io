@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./style.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -29,9 +29,6 @@ const media = [
 ];
 
 export default function Contact() {
-  useEffect(() => {
-    document.title = `Contact me`;
-  });
 
   const children = media.map((el, id) => (
     <span key={id}>
@@ -42,9 +39,8 @@ export default function Contact() {
   ));
 
   return (
-    <section className="contact-page">
-      <h2>Contact</h2>
-      <div className="icons-social">{children}</div>
-    </section>
+      <div className="icons-social">
+      {children}
+      </div>
   );
 }
