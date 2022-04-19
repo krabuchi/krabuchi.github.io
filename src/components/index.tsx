@@ -1,6 +1,7 @@
-import Navigation from "./navigation";
+import Tools from "./toolsComp";
+import About from "./about";
 import Hero from "./hero";
 import Projects from "./projects";
 import Contact from "./contact";
 
-export { Navigation, Hero, Projects, Contact };
+export { About, Tools, Hero, Projects, Contact };

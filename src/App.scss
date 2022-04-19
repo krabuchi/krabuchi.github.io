@@ -24,12 +24,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-      117.81deg,
-      #2ae7e7 0.54%,
-      rgba(255, 255, 255, 0) 94.42%
-    ),
-    #092c62;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -37,10 +31,30 @@ body {
 .app {
   width: 100%;
   height: 100vh;
-  max-width: 1200px;
-  padding: 10px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  margin: auto;
+}
+
+video {
+  z-index: -1;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.banner-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: $color-main, $alpha: 0.4);
+  z-index: -1;
 }
